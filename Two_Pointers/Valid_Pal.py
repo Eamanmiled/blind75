@@ -1,4 +1,4 @@
-s = "Was it a car or a cat I saw?"
+s = "Was it a car gor a cat I saw?"
 s = s.replace(" ", "")
 s = s.strip("?")
 s = s.lower()
@@ -24,7 +24,7 @@ if len(s) % 2 == 0:
 else:
     midpoint = len(s) // 2
     print(s[:midpoint], s[midpoint + 1:])
-    if compare(s[:midpoint], s[midpoint:]):
+    if compare(s[:midpoint], s[midpoint + 1:]): # im gettin confused on how this is working fix later lmao
         print("its a palidrome")
     else:
         print("nope")
