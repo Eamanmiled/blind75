@@ -15,14 +15,6 @@ The Blind 75 list is a set of 75 carefully selected LeetCode problems that cover
 5. [Sliding Window](#sliding-window)
 6. [Stack](#stack)
 
-## Folder Structure
-
-Each folder in this repository corresponds to a specific category of problems. Inside each folder, you will find:
-
-- **Problem Statement:** A brief description of the problem.
-- **Solution:** The code implementation in Python (or any other language).
-- **Explanation:** A detailed explanation of the solution, including time and space complexity.
-
 ### Folders
 
 - **arrays+hashing**: Solutions related to array manipulations and hashing techniques.
